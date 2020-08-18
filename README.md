@@ -45,3 +45,13 @@ This is Line was added for fun
  
  #Домашнее задание №3.4
  - `использование IDE Tools`
+ - `Действительно упрощает выполнение коммитов`
+ 
+ заметил что Git сам выполнил команду в консоли при коммите:
+
+`git -c credential.helper= -c http.sslBackend=schannel -c core.quotepath=false -c log.showSignature=false add --ignore-errors -A -f -- README.md` 
+
+Следующая строка:
+
+`git -c credential.helper= -c http.sslBackend=schannel -c core.quotepath=false -c log.showSignature=false commit -F C:\Users\bzhumabayev\AppData\Local\Temp\git-commit-msg-.txt --
+[fix 9bf8dc5] Was commited by Graphic Interface via IDE PyCharm`
