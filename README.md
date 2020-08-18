@@ -39,3 +39,6 @@ This is Line was added for fun
 8) Игнорировать конфигурационные файлы CLI `.terraformrc` и файл `terraform.rc`
 - `.terraformrc`
 - `terraform.rc`
+
+#Домашнее задание №3.3
+ - `добавление новой строки`
